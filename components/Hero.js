@@ -4,7 +4,7 @@ import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
 
 export default function Hero() {
-  const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
+  const colors = ["#009DAE", "#71DFE7", "#95D1CC", "#ECB365"];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}

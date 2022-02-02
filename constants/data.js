@@ -62,7 +62,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1siMb0G7-DUb81cSkJBegyVm6Fodxbvss/view?usp=sharing",
+    "https://drive.google.com/file/d/1FkWZU_gNeMYrcj6VdnSHjoa4sCLs894X/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/suhel_kap",
     twitter: "https://twitter.com/KapadiaSuhel",

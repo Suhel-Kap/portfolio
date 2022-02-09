@@ -3,7 +3,7 @@ export default function (req, res) {
 
     let nodemailer = require('nodemailer');
     const transporter = nodemailer.createTransport({
-        port: 465,
+        port: 587,
         host: "smtp.gmail.com",
         auth: {
             user: process.env.EMAIL,

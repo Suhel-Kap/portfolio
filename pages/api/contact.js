@@ -21,7 +21,7 @@ export default function (req, res) {
         ${req.body.email}</p>`
     }
 
-    transporter.sendMail(mailData, function (err, info) {
+    await transporter.sendMail(mailData, function (err, info) {
         if (err)
             console.log(err)
         else

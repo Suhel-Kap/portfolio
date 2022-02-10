@@ -3,7 +3,7 @@ export default function (req, res) {
 
     let nodemailer = require('nodemailer');
     async function main() {
-        let testAccount = await nodemailer.createTestAccount();
+        // let testAccount = await nodemailer.createTestAccount();
         let transporter = nodemailer.createTransport({
             service: 'gmail',
             port: 8000,
@@ -13,6 +13,7 @@ export default function (req, res) {
                 pass: process.env.PASSWORD,
             },
         });
+        console.log("Gmail connection Established");
         // const transporter = nodemailer.createTransport({
         //     port: 465,
         //     host: "smtp.gmail.com",

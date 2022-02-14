@@ -1,35 +1,26 @@
 export default function (req, res) {
     require('dotenv').config();
 
-    let nodemailer = require('nodemailer');
-    async function main() {
-        // let testAccount = await nodemailer.createTestAccount();
-        let transporter = nodemailer.createTransport({
-            host: 'smtp.mail.yahoo.com',
-            port: 465,
-            service: 'yahoo',
-            secure: false,
-            auth: {
-                user: process.env.EMAIL,
-                pass: process.env.PASSWORD
-            },
-            debug: false,
-            logger: true
-        });
-        console.log("Yahoo connection Established");
-        let info = await transporter.sendMail({
-            from: process.env.EMAIL, // sender address
-            to: "suhelkapadia2@gmail.com", // list of receivers
-            subject: `Message From ${req.body.name}`, // Subject line
-            text: req.body.message + " | Sent from: " + req.body.email, // plain text body
-            html: `<div>${req.body.message}</div><p>Sent from:
-        ${req.body.email}</p>`, // html body
-        });
+    const sgMail = require('@sendgrid/mail');
+    sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+    const msg = {
+        to: 'suhelkapadia2@gmail.com',
+        from: process.env.EMAIL, // Use the email address or domain you verified above
+        subject: `Message From ${req.body.name}`,
+        text: req.body.message + " | Sent from: " + req.body.email,
+        html: `<div>${req.body.message}</div><p>Sent from:${req.body.email}</p>`,
+    };
 
-        console.log("Message sent: %s", info.messageId);
+    sgMail
+        .send(msg)
+        .then(() => {}, error => {
+            console.error(error);
 
-        console.log(req.body)
-    }
-    main().catch(console.error);
+            if (error.response) {
+                console.error(error.response.body)
+            }
+        })
+    
+    console.log("Message Sent");
     res.status(200).send('Message Sent')
 }

@@ -32,7 +32,6 @@ export default function Contact() {
           setName('')
           setEmail('')
           setMessage('')
-          res.redirect("/")
         }
       })
   }

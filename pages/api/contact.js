@@ -5,24 +5,18 @@ export default function (req, res) {
     async function main() {
         // let testAccount = await nodemailer.createTestAccount();
         let transporter = nodemailer.createTransport({
-            service: 'gmail',
-            port: 8000,
-            secure: false, // true for 465, false for other ports
+            host: 'smtp.mail.yahoo.com',
+            port: 465,
+            service: 'yahoo',
+            secure: false,
             auth: {
                 user: process.env.EMAIL,
-                pass: process.env.PASSWORD,
+                pass: process.env.PASSWORD
             },
+            debug: false,
+            logger: true
         });
-        console.log("Gmail connection Established");
-        // const transporter = nodemailer.createTransport({
-        //     port: 465,
-        //     host: "smtp.gmail.com",
-        //     auth: {
-        //         user: process.env.EMAIL,
-        //         pass: process.env.PASSWORD,
-        //     },
-        //     secureConnection: true,
-        // });
+        console.log("Yahoo connection Established");
         let info = await transporter.sendMail({
             from: process.env.EMAIL, // sender address
             to: "suhelkapadia2@gmail.com", // list of receivers
@@ -33,24 +27,9 @@ export default function (req, res) {
         });
 
         console.log("Message sent: %s", info.messageId);
-        // const mailData = {
-        //     from: process.env.EMAIL,
-        //     to: 'suhelkapadia2@gmail.com',
-        //     subject: `Message From ${req.body.name}`,
-        //     text: req.body.message + " | Sent from: " + req.body.email,
-        //     html: `<div>${req.body.message}</div><p>Sent from:
-        //     ${req.body.email}</p>`
-        // }
-
-        // await transporter.sendMail(mailData, function (err, info) {
-        //     if (err)
-        //         console.log(err)
-        //     else
-        //         console.log(info)
-        // })
 
         console.log(req.body)
     }
-    main().catch(console.error); 
+    main().catch(console.error);
     res.status(200).send('Message Sent')
 }

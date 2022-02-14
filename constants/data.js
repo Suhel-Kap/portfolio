@@ -3,7 +3,7 @@ const userData = {
   name: "Suhel Kapadia",
   designation: "Software Developer",
   avatarUrl: "/avatar.png",
-  email: "suhelkapadia@gmail.com",
+  email: "suhelkapadia@yahoo.com",
   phone: "+91 8140602980",
   address: "Surat, Gujarat, India.",
   projects: [

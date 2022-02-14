@@ -11,16 +11,18 @@ export default function (req, res) {
         html: `<div>${req.body.message}</div><p>Sent from:${req.body.email}</p>`,
     };
 
-    sgMail
-        .send(msg)
-        .then(() => {}, error => {
+    (async () => {
+        try {
+            await sgMail.send(msg);
+            console.log("Message Sent");
+        } catch (error) {
             console.error(error);
 
             if (error.response) {
                 console.error(error.response.body)
             }
-        })
-    
-    console.log("Message Sent");
+        }
+    })();
+
     res.status(200).send('Message Sent')
 }

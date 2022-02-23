@@ -71,7 +71,7 @@ const userData = {
     {
       title: "Cloud Facilitator",
       company: "Google Developers Student Club",
-      year: "Sep 2021 - Oct 2021",
+      year: "2021",
       desc: "Mentored over 100 students to kick start their journey in the world of Cloud.",
     },
     {

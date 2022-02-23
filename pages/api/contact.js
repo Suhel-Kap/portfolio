@@ -16,7 +16,7 @@ export default function (req, res) {
             await sgMail.send(msg);
             console.log("Message Sent");
             res.status(200).send('Message Sent');
-            res.redirect('/contact');
+            res.redirect('/');
         } catch (error) {
             console.error(error);
 
@@ -26,5 +26,5 @@ export default function (req, res) {
         }
     })();
 
-    res.status(200).send('Message Sent')
+    res.status(200).send('Message Sent');
 }

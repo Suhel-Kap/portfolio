@@ -61,6 +61,26 @@ const userData = {
       desc: "Percentage in PCM :- 93.6%\nJEE Percentile :- 96.4\nGUJCET Percentile :- 90.2",
     },
   ],
+  responsibilities: [
+    {
+      title: "Technical Volunteer",
+      company: "Google Developers Student Club",
+      year: "2021 - Present",
+      desc: "Help in organising and managing technical events such as `Python for Beginners` to over 200 spirited learners.",
+    },
+    {
+      title: "Cloud Facilitator",
+      company: "Google Developers Student Club",
+      year: "Sep 2021 - Oct 2021",
+      desc: "Mentored over 100 students to kick start their journey in the world of Cloud.",
+    },
+    {
+      title: "Outgoing Global Talent Volunteer",
+      company: "AIESEC Surat",
+      year: "2022 - Present",
+      desc: "Help and motivate local talented students to secure internships abroad to boost their careers."
+    },
+  ],
   resumeUrl:
     "https://drive.google.com/file/d/1OZt0mihDt7OTvXs_FTPtU5S9UrRN9pNQ/view?usp=sharing",
   socialLinks: {

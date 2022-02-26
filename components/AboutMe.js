@@ -15,13 +15,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" Cloud Computing and Devops"}
-            <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.about.currentProjectUrl}
-            >
-              {userData.about.currentProject} 
-            </a>
+            {userData.about.title}. Currently working on{" Machine Learning and Cloud Computing."}
           </p>
         </div>
       </div>

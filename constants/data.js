@@ -27,13 +27,18 @@ const userData = {
       link: "https://github.com/Suhel-Kap/MLH-LHD-Build-2021",
       imgUrl: "/weather.png",
     },
+    {
+      title: "Meme Generator",
+      link: "https://github.com/Suhel-Kap/meme-generator",
+      imgUrl: "https://raw.githubusercontent.com/Suhel-Kap/meme-generator/main/Screenshot%20from%202022-07-12%2021-02-06.png",
+    },
   ],
   about: {
     title:
       "I'm a software developer that loves building products with the intention to make a difference",
     description: [
-      `Hey there, I am Suhel Kapadia, an undergraduate student at Sarvajanik College of Engineering and Technology, Surat, with majors in Computer Engineering. `,
-      `To fulfill my goal to giving back to the community, I joined the Google Developers Student Club in my college and since then I have actively participated in helping my peers reach their full potential. I led the 30 days of Google Cloud Facilitator program in my college where I mentored over 100 students to kick start their journey in the world of Cloud. `,
+      `Hey there, I am Suhel Kapadia, a pre-final year undergraduate student at Sarvajanik College of Engineering and Technology, Surat, with majors in Computer Engineering. `,
+      `To fulfill my goal to giving back to the community, I joined the Google Developers Student Club in my college and since then I have actively participated in helping my peers reach their full potential. I led the 30 days of Google Cloud Facilitator program in my college where I mentored over 100 students to kick start their journey in the world of Cloud. Currently I am the acting lead of the GDSC Club at SCET. `,
       `I am an enthusiastic and motivated second year Computer Science pursuing student with intuitive problem‑solving skills. I am capable of working under pressure. I am a passionate and quick learner with a notable interest towards Machine Learning, Cloud Computing and DevOps.`,
     ],
     // currentProject: "Tailwind Master Kit",
@@ -63,9 +68,15 @@ const userData = {
   ],
   responsibilities: [
     {
+      title: "Lead",
+      company: "Google Developers Student Club",
+      year: "2022 - Present",
+      desc: "Making a wonderful tech community.",
+    },
+    {
       title: "Technical Volunteer",
       company: "Google Developers Student Club",
-      year: "2021 - Present",
+      year: "2021 - 2022",
       desc: "Help in organising and managing technical events such as `Python for Beginners` to over 200 spirited learners.",
     },
     {
@@ -77,7 +88,7 @@ const userData = {
     {
       title: "Outgoing Global Talent Volunteer",
       company: "AIESEC Surat",
-      year: "2022 - Present",
+      year: "2022 - 2022",
       desc: "Help and motivate local talented students to secure internships abroad to boost their careers."
     },
   ],

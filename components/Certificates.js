@@ -11,6 +11,11 @@ export default function Certificates() {
             {/* Grid starts here */}
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
+                    <CertificateCard 
+                        title="GDSC Core Team '21-22"
+                        imgUrl="https://raw.githubusercontent.com/Suhel-Kap/portfolio/main/public/Suhel%20Kapadia%20GDSC%2021-22%20(pdf.io).png"
+                        link="https://www.linkedin.com/in/suhel-kapadia/"
+                    />
                     <CertificateCard
                         title="Bits and Bytes of Networking"
                         imgUrl="https://raw.githubusercontent.com/Suhel-Kap/portfolio/main/public/coursera_networking_google.png"

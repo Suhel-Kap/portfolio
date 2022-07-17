@@ -120,34 +120,20 @@ export default function Contact() {
                     clipRule="evenodd" d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z" fill="currentColor" /></svg>
               </a>
               <a
-                href={userData.socialLinks.instagram}
+                href={userData.socialLinks.twitter}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
                 <svg
-                  width="24"
-                  height="24"
-                  className="text-gray-50"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
-                    fill="currentColor"
-                  />
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
-                    fill="currentColor"
-                  />
-                </svg>
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-name="Layer 1"
+                            width="24"
+                            height="24"
+                            fill="currentColor"
+                            className="bi bi-twitter h-5 w-5"
+                            viewBox="0 0 24 24"
+          >
+                            <path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z" />
+               </svg>
               </a>
             </div>
           </div>

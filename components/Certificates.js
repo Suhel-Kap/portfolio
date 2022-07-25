@@ -13,37 +13,37 @@ export default function Certificates() {
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
                     <CertificateCard 
                         title="GDSC Core Team '21-22"
-                        imgUrl="https://raw.githubusercontent.com/Suhel-Kap/portfolio/main/public/Suhel%20Kapadia%20GDSC%2021-22%20(pdf.io).png"
+                        imgUrl="./Suhel Kapadia GDSC 21-22.webp"
                         link="https://www.linkedin.com/in/suhel-kapadia/"
                     />
                     <CertificateCard
                         title="Bits and Bytes of Networking"
-                        imgUrl="https://raw.githubusercontent.com/Suhel-Kap/portfolio/main/public/coursera_networking_google.png"
+                        imgUrl="./coursera_networking_google.webp"
                         link="https://www.linkedin.com/in/suhel-kapadia/"
                     />
                     <CertificateCard
                         title="Tech Support Fundamentals"
-                        imgUrl="https://raw.githubusercontent.com/Suhel-Kap/portfolio/main/public/tech_support_fundamentals.png"
+                        imgUrl="./tech_support_fundamentals.webp"
                         link="https://www.linkedin.com/in/suhel-kapadia/"
                     />
                     <CertificateCard
                         title="Python Data Structures"
-                        imgUrl="https://raw.githubusercontent.com/Suhel-Kap/portfolio/main/public/coursera_data_structures.png"
+                        imgUrl="./coursera_data_structures.webp"
                         link="https://www.linkedin.com/in/suhel-kapadia/"
                     />
                     <CertificateCard
                         title="Data Structures and Algorithms"
-                        imgUrl="https://raw.githubusercontent.com/Suhel-Kap/portfolio/main/public/jovian_dsa.png"
+                        imgUrl="./jovian_dsa.webp"
                         link="https://www.linkedin.com/in/suhel-kapadia/"
                     />
                     <CertificateCard
                         title="Full Stack Web Development"
-                        imgUrl="https://raw.githubusercontent.com/Suhel-Kap/portfolio/main/public/udemy_web_dev.png"
+                        imgUrl="./udemy_web_dev.webp"
                         link="https://www.linkedin.com/in/suhel-kapadia/"
                     />
                     <CertificateCard
                         title="Cloud Facilitator"
-                        imgUrl="https://raw.githubusercontent.com/Suhel-Kap/portfolio/main/public/cloud_facilitator.png"
+                        imgUrl="./cloud_facilitator.webp"
                         link="https://www.linkedin.com/in/suhel-kapadia/"
                     />
                 </div>

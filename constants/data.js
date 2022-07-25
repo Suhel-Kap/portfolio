@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "Suhel-Kap",
   name: "Suhel Kapadia",
   designation: "Software Developer",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/avatar.webp",
   email: "suhelkapadia@yahoo.com",
   phone: "+91 8140602980",
   address: "Surat, Gujarat, India.",
@@ -10,22 +10,22 @@ const userData = {
     {
       title: "Selenium Web Scraper",
       link: "https://github.com/Suhel-Kap/selenium-web-scraper",
-      imgUrl: "/web-scraping.png",
+      imgUrl: "/web-scraping.webp",
     },
     {
       title: "Portfolio NextJS",
       link: "https://github.com/Suhel-Kap/portfolio",
-      imgUrl: "/portfolio.png",
+      imgUrl: "/portfolio.webp",
     },
     {
       title: "Python Calculator",
       link: "https://github.com/Suhel-Kap/Calculator",
-      imgUrl: "/calculator.png",
+      imgUrl: "/calculator.webp",
     },
     {
       title: "Weather App",
       link: "https://github.com/Suhel-Kap/MLH-LHD-Build-2021",
-      imgUrl: "/weather.png",
+      imgUrl: "/weather.webp",
     },
     {
       title: "Meme Generator",

@@ -40,7 +40,7 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               <img
-                src="https://raw.githubusercontent.com/Suhel-Kap/portfolio/main/public/front-end.png"
+                src="./front-end.webp"
                 alt="raffle contract"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
@@ -60,7 +60,7 @@ export default function FavouriteProjects() {
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/web-scraping.png"
+                src="/web-scraping.webp"
                 alt="web scraper"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
@@ -80,7 +80,7 @@ export default function FavouriteProjects() {
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/portfolio.png"
+                src="/portfolio.webp"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
               />

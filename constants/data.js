@@ -15,7 +15,7 @@ const userData = {
     {
       title: "Smart Contract Raffle",
       link: "https://github.com/Suhel-Kap/nextjs-smart-contract-raffle",
-      imgUrl: "/nft-marketplace.webp/front-end.webp"
+      imgUrl: "/front-end.webp"
     },
     {
       title: "Selenium Web Scraper",

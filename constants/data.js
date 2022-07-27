@@ -8,6 +8,16 @@ const userData = {
   address: "Surat, Gujarat, India.",
   projects: [
     {
+      title: "NFT Marketplace on Polygon",
+      link: "https://github.com/Suhel-Kap/nft-marketplace-polygon",
+      imgUrl: "/nft-marketplace.webp"
+    },
+    {
+      title: "Smart Contract Raffle",
+      link: "https://github.com/Suhel-Kap/nextjs-smart-contract-raffle",
+      imgUrl: "/nft-marketplace.webp/front-end.webp"
+    },
+    {
       title: "Selenium Web Scraper",
       link: "https://github.com/Suhel-Kap/selenium-web-scraper",
       imgUrl: "/web-scraping.webp",

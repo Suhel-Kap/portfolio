@@ -35,17 +35,18 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://github.com/Suhel-Kap/nft-marketplace-polygon"
+            href="https://devpost.com/software/moog3"
+            target={"_blank"}
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="./nft-marketplace.webp"
-                alt="raffle contract"
+                src="./moog3-landing.webp"
+                alt="moog3"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                NFT Marketplace
+                Moog3
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -54,18 +55,19 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/Suhel-Kap/selenium-web-scraper"
+            href="https://github.com/Suhel-Kap/nft-marketplace-polygon"
+            target={"_blank"}
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/web-scraping.webp"
-                alt="web scraper"
+                src="/nft-marketplace.webp"
+                alt="NFT Marketplace"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Selenium Web Scraper
+                NFT Marketplace
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
@@ -74,18 +76,19 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://suhelkapadia.engineer"
+            href="https://github.com/Suhel-Kap/dynamic-audio-nfts"
+            target={"_blank"}
             className="w-full block col-span-3 sm:col-span-1  object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/portfolio.webp"
-                alt="portfolio"
+                src="/dan-thumbnail.webp"
+                alt="dynamic-audio-nft"
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Portfolio
+                Dynamic Audio NFT
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03

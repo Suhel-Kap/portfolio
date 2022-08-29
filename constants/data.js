@@ -8,6 +8,16 @@ const userData = {
   address: "Surat, Gujarat, India.",
   projects: [
     {
+      title: "Moog3",
+      link: "https://devpost.com/software/moog3",
+      imgUrl: "/moog3-landing.webp"
+    },
+    {
+      title: "Dynamic Audio NFT",
+      link: "https://github.com/Suhel-Kap/dynamic-audio-nfts",
+      imgUrl: "/dan-thumbnail.webp"
+    },
+    {
       title: "NFT Marketplace on Polygon",
       link: "https://github.com/Suhel-Kap/nft-marketplace-polygon",
       imgUrl: "/nft-marketplace.webp"

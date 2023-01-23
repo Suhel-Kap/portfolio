@@ -66,10 +66,16 @@ const userData = {
   },
   experience: [
     {
+      title: "Full Stack Web3 Developement Intern", 
+      company: "Datanominee - Pesu Venture Labs",
+      year: "JAN 2023 - Present",
+      companyLink: "https://www.datanominee.com/",
+      desc: "Wokring as a full stack web3 dev intern",
+    },
+    {
       title: "Full Stack Web Developement Intern", 
       company: "Metier Organisation (Startup)",
       year: "2021",
-      // companyLink: "https://mroads.com",
       desc: "Created the front end using HTML, CSS,Bootstrap and EJS\nImplemented the backend using NodeJS andset up a MongoDB server.\nCreated the UI for best possible business gains.",
     },
     {

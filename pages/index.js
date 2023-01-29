@@ -11,7 +11,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Suhel Kapadia"
-      description="This is a portfolio website built for helping me land a good job."
+      description="Suhel is a prefinal year student pursuing CSE from SCET Surat. He is the GDSC Lead of SCET for 2022-23. He is a full stack web3 developer, who has won a lot of hackathons and is now doing an internship for a startup, datanominee."
     >
       <Hero />
       <FavouriteProjects />

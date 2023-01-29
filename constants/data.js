@@ -70,7 +70,7 @@ const userData = {
       company: "Datanominee - Pesu Venture Labs",
       year: "JAN 2023 - Present",
       companyLink: "https://www.datanominee.com/",
-      desc: "Wokring as a full stack web3 dev intern",
+      desc: "Wokring as a full stack web3 dev intern. Working on Hyperledger Fabric, a permissioned blockchain.",
     },
     {
       title: "Full Stack Web Developement Intern", 

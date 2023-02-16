@@ -8,6 +8,11 @@ const userData = {
   address: "Surat, Gujarat, India.",
   projects: [
     {
+      title: "Spatial DAO",
+      link: "https://spatialdao.live",
+      imgUrl: "/spatial-dao.webp"
+    },
+    {
       title: "Moog3",
       link: "https://devpost.com/software/moog3",
       imgUrl: "/moog3-landing.webp"
@@ -16,6 +21,11 @@ const userData = {
       title: "The Crypto Studio",
       link: "https://github.com/Suhel-Kap/the-crypto-studio",
       imgUrl: "/dan-thumbnail.webp"
+    },
+    {
+      title: "dUni",
+      link: "https://github.com/Suhel-Kap/dUni",
+      imgUrl: "/dUni.webp"
     },
     {
       title: "NFT Marketplace on Polygon",

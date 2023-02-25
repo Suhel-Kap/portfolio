@@ -80,7 +80,7 @@ const userData = {
       company: "Datanominee - Pesu Venture Labs",
       year: "JAN 2023 - Present",
       companyLink: "https://www.datanominee.com/",
-      desc: "Wokring as a full stack web3 dev intern. Working on Hyperledger Fabric, a permissioned blockchain.",
+      desc: "Implemented Firebase login for the web application.\nRedesigned the MongoDB database to optimize queries.\nDeployed the web application to AWS Amplify.\nSet up NFT storage to upload files to IPFS.\nImplemented Instagram Graph API to fetch users' Instagram posts.\nTechnologies used: React JS, NodeJS, Javascript.",
     },
     {
       title: "Full Stack Web Developement Intern", 
@@ -93,7 +93,7 @@ const userData = {
       company: "SCET, Surat",
       year: "2020 - Present",
       companyLink: "https://scet.ac.in",
-      desc: "Major in Computer Science and Engineering with a CPI of 9.02.",
+      desc: "Major in Computer Science and Engineering with a CPI of 8.69.",
     },
     {
       title: "High School",

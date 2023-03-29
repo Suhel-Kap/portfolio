@@ -8,6 +8,11 @@ const userData = {
   address: "Surat, Gujarat, India.",
   projects: [
     {
+      title: "DAOasis",
+      link: "https://daoasis.vercel.app",
+      imgUrl: "/daoasis.webp"
+    },
+    {
       title: "Spatial DAO",
       link: "https://spatialdao.live",
       imgUrl: "/spatial-dao.webp"
@@ -71,8 +76,8 @@ const userData = {
       `To fulfill my goal to giving back to the community, I joined the Google Developers Student Club in my college and since then I have actively participated in helping my peers reach their full potential. I led the 30 days of Google Cloud Facilitator program in my college where I mentored over 100 students to kick start their journey in the world of Cloud. Currently I am the acting lead of the GDSC Club at SCET. `,
       `I am an enthusiastic and motivated second year Computer Science pursuing student with intuitive problem‑solving skills. I am capable of working under pressure. I am a passionate and quick learner with a notable interest towards Machine Learning, Cloud Computing and DevOps.`,
     ],
-    currentProject: "M3tadao",
-    currentProjectUrl: "https://github.com/Suhel-Kap/m3tadao.eth",
+    currentProject: "DAOasis",
+    currentProjectUrl: "https://github.com/Suhel-Kap/DAOasis",
   },
   experience: [
     {

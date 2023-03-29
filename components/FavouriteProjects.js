@@ -55,7 +55,7 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/Suhel-Kap/nft-marketplace-polygon"
+            href="https://spatialdao.live"
             target={"_blank"}
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >

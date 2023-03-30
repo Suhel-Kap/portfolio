@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.11",
     "axios": "^0.21.1",
     "dotenv": "^16.0.0",
     "emailjs-com": "^3.2.0",

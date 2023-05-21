@@ -62,11 +62,6 @@ const userData = {
       link: "https://github.com/Suhel-Kap/MLH-LHD-Build-2021",
       imgUrl: "/weather.webp",
     },
-    {
-      title: "Meme Generator",
-      link: "https://github.com/Suhel-Kap/meme-generator",
-      imgUrl: "https://raw.githubusercontent.com/Suhel-Kap/meme-generator/main/Screenshot%20from%202022-07-12%2021-02-06.png",
-    },
   ],
   about: {
     title:
@@ -83,9 +78,9 @@ const userData = {
     {
       title: "Full Stack Web3 Developement Intern", 
       company: "Datanominee - Pesu Venture Labs",
-      year: "JAN 2023 - Present",
+      year: "JAN 2023 - MAR 2023",
       companyLink: "https://www.datanominee.com/",
-      desc: "Implemented Firebase login for the web application.\nRedesigned the MongoDB database to optimize queries.\nDeployed the web application to AWS Amplify.\nSet up NFT storage to upload files to IPFS.\nImplemented Instagram Graph API to fetch users' Instagram posts.\nTechnologies used: React JS, NodeJS, Javascript.",
+      desc: "Implemented Firebase login for the web application.\nRedesigned the MongoDB database to optimize queries.\nDeployed the web application to AWS Amplify.\nSet up NFT storage to upload files to IPFS.\nImplemented Instagram Graph API to fetch users’ Instagram posts.\nTechnologies used: React JS, NodeJS, Javascript, MongoDB, Firebase, AWS Amplify and Graph API.",
     },
     {
       title: "Full Stack Web Developement Intern", 

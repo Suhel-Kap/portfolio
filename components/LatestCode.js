@@ -5,11 +5,11 @@ import userData from "@constants/data";
 
 export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState([]);
-
-  if(!repos){
-      setRepos(repositories);
+  
+  if(repos.length === 0){
+    setRepos(repositories);
   }
-
+  
   return (
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
       <div className="max-w-6xl mx-auto">

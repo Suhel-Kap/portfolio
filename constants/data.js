@@ -89,7 +89,7 @@ const userData = {
     {
       title: "Full Stack Web3 Developement Intern", 
       company: "Datanominee - Pesu Venture Labs",
-      year: "JAN 2023 - MAR 2023",
+      year: "JAN 2023 - APR 2023",
       companyLink: "https://www.datanominee.com/",
       desc: "Implemented Firebase login for the web application.\nRedesigned the MongoDB database to optimize queries.\nDeployed the web application to AWS Amplify.\nSet up NFT storage to upload files to IPFS.\nImplemented Instagram Graph API to fetch users’ Instagram posts.\nTechnologies used: React JS, NodeJS, Javascript, MongoDB, Firebase, AWS Amplify and Graph API.",
     },

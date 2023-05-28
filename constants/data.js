@@ -8,6 +8,11 @@ const userData = {
   address: "Surat, Gujarat, India.",
   projects: [
     {
+      title: "RSS Feed Aggregator",
+      link: "http://github.com/Suhel-Kap/rss-aggregator",
+      imgUrl: "/rss-aggregator.svg"
+    },
+    {
       title: "DAOasis",
       link: "https://daoasis.vercel.app",
       imgUrl: "/daoasis.webp"
@@ -65,11 +70,17 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves building products with the intention to make a difference",
+      "I'm a passionate software developer driven by the desire to create impactful products. I specialize in Blockchain development and actively explore the exciting world of Web3 technologies.",
     description: [
-      `Hey there, I am Suhel Kapadia, a pre-final year undergraduate student at Sarvajanik College of Engineering and Technology, Surat, with majors in Computer Engineering. `,
-      `To fulfill my goal to giving back to the community, I joined the Google Developers Student Club in my college and since then I have actively participated in helping my peers reach their full potential. I led the 30 days of Google Cloud Facilitator program in my college where I mentored over 100 students to kick start their journey in the world of Cloud. Currently I am the acting lead of the GDSC Club at SCET. `,
-      `I am an enthusiastic and motivated second year Computer Science pursuing student with intuitive problem‑solving skills. I am capable of working under pressure. I am a passionate and quick learner with a notable interest towards Machine Learning, Cloud Computing and DevOps.`,
+      `Hey there! I'm Suhel Kapadia, a pre-final year undergraduate student pursuing Computer Engineering at Sarvajanik College of Engineering and Technology, Surat. With a passion for software development and a drive to make an impact in the field, I'm on a constant journey of growth and exploration.`,
+
+      `Throughout my academic pursuits, I have actively participated in various initiatives to foster learning and empower my peers. As the Lead of the Google Developers Student Club at SCET, I have had the opportunity to collaborate with fellow students and contribute to the tech community.`,
+      
+      `I'm an enthusiastic and motivated student with a focus on software development. With a keen eye for problem-solving and a knack for learning new technologies, I enjoy taking on challenges and bringing innovative ideas to life. My experiences in full-stack web development, including projects involving React JS, NodeJS, and MongoDB, have honed my skills and provided me with a strong foundation in building robust and user-friendly web applications.`,
+      
+      `As I continue my educational journey, I remain dedicated to staying updated with the latest advancements in the field of software development. I believe in the power of continuous learning and strive to broaden my skill set by exploring new frameworks, languages, and development methodologies.`,
+      
+      `Feel free to explore my portfolio website to gain insights into my projects and experiences. I'm always open to new opportunities, collaborations, and conversations. Let's connect and explore how we can make a positive impact through technology!`
     ],
     currentProject: "DAOasis",
     currentProjectUrl: "https://github.com/Suhel-Kap/DAOasis",
@@ -107,7 +118,7 @@ const userData = {
       title: "Lead",
       company: "Google Developers Student Club",
       year: "2022 - Present",
-      desc: "Making a wonderful tech community.",
+      desc: "Organized and conducted 8 successful events on various tech topics.\nMentored students across different years, fostering their tech journey.",
     },
     {
       title: "Technical Volunteer",

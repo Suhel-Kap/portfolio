@@ -1,7 +1,7 @@
 import React from "react";
 import userData from "@constants/data";
 
-export default function Responsibilities(){
+export default function Responsibilities() {
     return (
         <section className="bg-white dark:bg-gray-800">
             <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
@@ -9,7 +9,7 @@ export default function Responsibilities(){
                     Responsibilities
                 </h1>
             </div>
-            <div  className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
+            <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
                 <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
                     {/* Responsibility card */}
                     {userData.responsibilities.map((resp, idx) => (
@@ -38,6 +38,7 @@ export default function Responsibilities(){
 }
 
 const ResponsibilityCard = ({ title, desc, year, company }) => {
+    const lines = desc.split('\n');
     return (
         <div className="relative responsibility-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
             <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-800">
@@ -47,7 +48,14 @@ const ResponsibilityCard = ({ title, desc, year, company }) => {
             <a href={company} className="text-gray-500">
                 {company}
             </a>
-            <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
+            <p className="text-gray-600 dark:text-gray-400 my-2">
+            {lines.map((line, index) => (
+                <React.Fragment key={index}>
+                    {line}
+                    {index !== desc.length - 1 && <br />}
+                </React.Fragment>
+            ))}
+            </p>
         </div>
     );
 }

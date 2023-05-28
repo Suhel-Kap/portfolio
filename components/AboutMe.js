@@ -15,7 +15,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" Blockchain and exploring Web3."}
+            {userData.about.title}
           </p>
         </div>
       </div>
@@ -125,8 +125,12 @@ export default function AboutMe() {
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
-            <img
+              <img
                 src="solidity-logo.svg"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="golang.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -135,6 +139,10 @@ export default function AboutMe() {
               />
               <img
                 src="python.webp"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="typescript.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -166,7 +174,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+                src="react.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>

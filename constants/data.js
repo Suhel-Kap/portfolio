@@ -86,6 +86,13 @@ const userData = {
     currentProjectUrl: "https://github.com/Suhel-Kap/DAOasis",
   },
   experience: [
+	{
+		title: "Software Engineer Intern",
+		company: "Clamp",
+		year: "JUN 2023 - Present",
+		companyLink: "https://joinclamp.com",
+		desc: "Research and develop the v2 version of the product",
+	},
     {
       title: "Full Stack Web3 Developement Intern", 
       company: "Datanominee - Pesu Venture Labs",

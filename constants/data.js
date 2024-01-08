@@ -91,7 +91,7 @@ const userData = {
 		company: "Clamp",
 		year: "JUN 2023 - Present",
 		companyLink: "https://joinclamp.com",
-		desc: "Research and develop the v2 version of the product",
+		desc: "Implemented Account Abstraction stack from scratch for smoother UX.\nReduced gas sponsorship cost by 60%.\nDesigned and created a robust on-chain rewards system.\nCommunicate with users to get feedback on the product.\nTechnologies used: Solidity, Next JS, NodeJS, Typescript, MongoDB.",
 	},
     {
       title: "Full Stack Web3 Developement Intern", 

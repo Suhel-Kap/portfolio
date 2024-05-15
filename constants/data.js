@@ -70,26 +70,35 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a passionate software developer driven by the desire to create impactful products. I specialize in Blockchain development and actively explore the exciting world of Web3 technologies.",
+"I'm an enthusiastic software developer fueled by a passion for creating meaningful products. My expertise lies in Blockchain development, and I thrive in the dynamic realm of Web3 technologies, constantly exploring its vast potential.",
     description: [
-      `Hey there! I'm Suhel Kapadia, a pre-final year undergraduate student pursuing Computer Engineering at Sarvajanik College of Engineering and Technology, Surat. With a passion for software development and a drive to make an impact in the field, I'm on a constant journey of growth and exploration.`,
+      `Hey there! I'm Suhel Kapadia, a recent graduate with a degree in Computer Engineering from Sarvajanik College of Engineering and Technology, Surat. My journey in the world of technology has been exciting and dynamic, driven by a passion for software development and a desire to make a meaningful impact.`,
 
-      `Throughout my academic pursuits, I have actively participated in various initiatives to foster learning and empower my peers. As the Lead of the Google Developers Student Club at SCET, I have had the opportunity to collaborate with fellow students and contribute to the tech community.`,
+      `During my undergraduate years, I actively engaged in various initiatives aimed at fostering learning and empowering my peers. As the Lead of the Google Developers Student Club at SCET, I collaborated with fellow students, contributing to the vibrant tech community.`,
       
-      `I'm an enthusiastic and motivated student with a focus on software development. With a keen eye for problem-solving and a knack for learning new technologies, I enjoy taking on challenges and bringing innovative ideas to life. My experiences in full-stack web development, including projects involving React JS, NodeJS, and MongoDB, have honed my skills and provided me with a strong foundation in building robust and user-friendly web applications.`,
+      `My focus on software development has led me to explore the burgeoning field of web3 over the past two years. I've had the privilege of working at a promising web3 startup, where I've honed my skills and collaborated with inspiring individuals. Their guidance has motivated me to give back to the community and share knowledge with others on their journey.`,
       
-      `As I continue my educational journey, I remain dedicated to staying updated with the latest advancements in the field of software development. I believe in the power of continuous learning and strive to broaden my skill set by exploring new frameworks, languages, and development methodologies.`,
+      `I thrive on challenges and enjoy bringing innovative ideas to life. My experience in full-stack web development, with expertise in technologies such as React JS, NodeJS, and MongoDB, has equipped me with the skills to build robust and user-friendly web applications.`,
       
-      `Feel free to explore my portfolio website to gain insights into my projects and experiences. I'm always open to new opportunities, collaborations, and conversations. Let's connect and explore how we can make a positive impact through technology!`
+      `As I continue to grow professionally, I remain committed to staying abreast of the latest advancements in software development. Continuous learning is a cornerstone of my approach, as I eagerly explore new frameworks, languages, and development methodologies.`,
+
+	`Feel free to explore my portfolio website to learn more about my projects and experiences. I'm always open to new opportunities, collaborations, and conversations. Let's connect and explore how we can leverage technology to create positive change!`
     ],
     currentProject: "DAOasis",
     currentProjectUrl: "https://github.com/Suhel-Kap/DAOasis",
   },
   experience: [
+	  {
+		title: "Fullstack Developer",
+		company: "Clamp",
+		year: "DEC 2023 - Present",
+		companyLink: "https://joinclamp.com",
+		desc: "Crafted a very smooth user experience for user KYC.\nPrepared react native applications for both ios and android.\nImplemented a CI/CD pipeline to build, test and deploy changes directly to Play Store.",
+	},
 	{
 		title: "Software Engineer Intern",
 		company: "Clamp",
-		year: "JUN 2023 - Present",
+		year: "JUN 2023 - DEC 2023",
 		companyLink: "https://joinclamp.com",
 		desc: "Implemented Account Abstraction stack from scratch for smoother UX.\nReduced gas sponsorship cost by 60%.\nDesigned and created a robust on-chain rewards system.\nCommunicate with users to get feedback on the product.\nTechnologies used: Solidity, Next JS, NodeJS, Typescript, MongoDB.",
 	},

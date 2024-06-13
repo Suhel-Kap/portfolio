@@ -89,9 +89,9 @@ const userData = {
   },
   experience: [
 	  {
-		title: "Fullstack Developer",
+		title: "Fullstack Developer Intern",
 		company: "Clamp",
-		year: "DEC 2023 - Present",
+		year: "JAN 2024 - JUN 2024",
 		companyLink: "https://joinclamp.com",
 		desc: "Crafted a very smooth user experience for user KYC.\nPrepared react native applications for both ios and android.\nImplemented a CI/CD pipeline to build, test and deploy changes directly to Play Store.",
 	},
@@ -118,9 +118,9 @@ const userData = {
     {
       title: "Graduation",
       company: "SCET, Surat",
-      year: "2020 - Present",
+      year: "2020 - 2024",
       companyLink: "https://scet.ac.in",
-      desc: "Major in Computer Science and Engineering with a CPI of 8.69.",
+      desc: "Major in Computer Science and Engineering with a CGPA of 8.79.",
     },
     {
       title: "High School",

@@ -7,6 +7,11 @@ const userData = {
   phone: "+91 8140602980",
   address: "Surat, Gujarat, India.",
   projects: [
+	{
+		title: "Zorpay",
+		link: "https://github.com/Suhel-Kap/zorpay",
+		imgUrl: "https://raw.githubusercontent.com/Suhel-Kap/zorpay/main/README/Screenshots/Zorpay.png"
+	},
     {
       title: "RSS Feed Aggregator",
       link: "http://github.com/Suhel-Kap/rss-aggregator",
@@ -72,7 +77,7 @@ const userData = {
     title:
 "I'm an enthusiastic software developer fueled by a passion for creating meaningful products. My expertise lies in Blockchain development, and I thrive in the dynamic realm of Web3 technologies, constantly exploring its vast potential.",
     description: [
-      `Hey there! I'm Suhel Kapadia, a recent graduate with a degree in Computer Engineering from Sarvajanik College of Engineering and Technology, Surat. My journey in the world of technology has been exciting and dynamic, driven by a passion for software development and a desire to make a meaningful impact.`,
+      `Hey there! I'm Suhel Kapadia, a fullstack web3 engineer building RapidNode. A recent college graduate with a degree in Computer Engineering from Sarvajanik College of Engineering and Technology, Surat. My journey in the world of technology has been exciting and dynamic, driven by a passion for software development and a desire to make a meaningful impact.`,
 
       `During my undergraduate years, I actively engaged in various initiatives aimed at fostering learning and empowering my peers. As the Lead of the Google Developers Student Club at SCET, I collaborated with fellow students, contributing to the vibrant tech community.`,
       
@@ -88,6 +93,13 @@ const userData = {
     currentProjectUrl: "https://github.com/Suhel-Kap/DAOasis",
   },
   experience: [
+	  {
+		title: "Fullstack Web3 Engineer",
+		company: "RapidNode",
+		year: "JUL 2024 - PRESENT",
+		companyLink: "https://rapidnode.xyz",
+		desc: "Simplifying node management for web3 degens",
+	},
 	  {
 		title: "Fullstack Developer Intern",
 		company: "Clamp",

@@ -98,7 +98,7 @@ const userData = {
 		company: "RapidNode",
 		year: "JUL 2024 - PRESENT",
 		companyLink: "https://rapidnode.xyz",
-		desc: "Simplifying node management for web3 degens",
+		desc: "Built a distributed Actively Validated Service (AVS) on Eigenlayer to monitor and validate blockchain nodes for data integrity and network reliability.\nDeveloped and tested ERC721 NFT contracts to fractionalize node licenses, making them more accessible to a broader audience.\nEngineered a backend solution to handle multiple incoming requests efficiently in a horizontally scaled environment using RabbitMQ, ensuring accurate processing and database updates.\nConducted research and development on new product features, such as Rollups as a Service using Arbitrum Orbit.\nTechnologies used: Go, Solidity, NestJS, TypeScript, PostgreSQL, RabbitMQ.",
 	},
 	  {
 		title: "Fullstack Developer Intern",

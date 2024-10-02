@@ -5,7 +5,7 @@ const userData = {
   avatarUrl: "/avatar.webp",
   email: "suhelkapadia@yahoo.com",
   phone: "+91 8140602980",
-  address: "Surat, Gujarat, India.",
+  address: "India",
   projects: [
 	{
 		title: "Zorpay",

@@ -145,7 +145,7 @@ const userData = {
     {
       title: "Lead",
       company: "Google Developers Student Club",
-      year: "2022 - Present",
+      year: "2022 - 2023",
       desc: "Organized and conducted 8 successful events on various tech topics.\nMentored students across different years, fostering their tech journey.",
     },
     {

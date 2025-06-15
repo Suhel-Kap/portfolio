@@ -73,74 +73,84 @@ const userData = {
       imgUrl: "/weather.webp",
     },
   ],
-  about: {
-    title:
-"I'm an enthusiastic software developer fueled by a passion for creating meaningful products. My expertise lies in Blockchain development, and I thrive in the dynamic realm of Web3 technologies, constantly exploring its vast potential.",
-    description: [
-      `Hey there! I'm Suhel Kapadia, a fullstack web3 engineer building RapidNode. A recent college graduate with a degree in Computer Engineering from Sarvajanik College of Engineering and Technology, Surat. My journey in the world of technology has been exciting and dynamic, driven by a passion for software development and a desire to make a meaningful impact.`,
-
-      `During my undergraduate years, I actively engaged in various initiatives aimed at fostering learning and empowering my peers. As the Lead of the Google Developers Student Club at SCET, I collaborated with fellow students, contributing to the vibrant tech community.`,
-      
-      `My focus on software development has led me to explore the burgeoning field of web3 over the past two years. I've had the privilege of working at a promising web3 startup, where I've honed my skills and collaborated with inspiring individuals. Their guidance has motivated me to give back to the community and share knowledge with others on their journey.`,
-      
-      `I thrive on challenges and enjoy bringing innovative ideas to life. My experience in full-stack web development, with expertise in technologies such as React JS, NodeJS, and MongoDB, has equipped me with the skills to build robust and user-friendly web applications.`,
-      
-      `As I continue to grow professionally, I remain committed to staying abreast of the latest advancements in software development. Continuous learning is a cornerstone of my approach, as I eagerly explore new frameworks, languages, and development methodologies.`,
-
-	`Feel free to explore my portfolio website to learn more about my projects and experiences. I'm always open to new opportunities, collaborations, and conversations. Let's connect and explore how we can leverage technology to create positive change!`
-    ],
-    currentProject: "DAOasis",
-    currentProjectUrl: "https://github.com/Suhel-Kap/DAOasis",
-  },
-  experience: [
-	  {
-		title: "Fullstack Web3 Engineer",
-		company: "RapidNode",
-		year: "JUL 2024 - PRESENT",
-		companyLink: "https://rapidnode.xyz",
-		desc: "Built a distributed Actively Validated Service (AVS) on Eigenlayer to monitor and validate blockchain nodes for data integrity and network reliability.\nDeveloped and tested ERC721 NFT contracts to fractionalize node licenses, making them more accessible to a broader audience.\nEngineered a backend solution to handle multiple incoming requests efficiently in a horizontally scaled environment using RabbitMQ, ensuring accurate processing and database updates.\nConducted research and development on new product features, such as Rollups as a Service using Arbitrum Orbit.\nTechnologies used: Go, Solidity, NestJS, TypeScript, PostgreSQL, RabbitMQ.",
-	},
-	  {
-		title: "Fullstack Developer Intern",
-		company: "Clamp",
-		year: "JAN 2024 - JUN 2024",
-		companyLink: "https://joinclamp.com",
-		desc: "Crafted a very smooth user experience for user KYC.\nPrepared react native applications for both ios and android.\nImplemented a CI/CD pipeline to build, test and deploy changes directly to Play Store.",
-	},
-	{
-		title: "Software Engineer Intern",
-		company: "Clamp",
-		year: "JUN 2023 - DEC 2023",
-		companyLink: "https://joinclamp.com",
-		desc: "Implemented Account Abstraction stack from scratch for smoother UX.\nReduced gas sponsorship cost by 60%.\nDesigned and created a robust on-chain rewards system.\nCommunicate with users to get feedback on the product.\nTechnologies used: Solidity, Next JS, NodeJS, Typescript, MongoDB.",
-	},
-    {
-      title: "Full Stack Web3 Developement Intern", 
-      company: "Datanominee - Pesu Venture Labs",
-      year: "JAN 2023 - APR 2023",
-      companyLink: "https://www.datanominee.com/",
-      desc: "Implemented Firebase login for the web application.\nRedesigned the MongoDB database to optimize queries.\nDeployed the web application to AWS Amplify.\nSet up NFT storage to upload files to IPFS.\nImplemented Instagram Graph API to fetch users’ Instagram posts.\nTechnologies used: React JS, NodeJS, Javascript, MongoDB, Firebase, AWS Amplify and Graph API.",
-    },
-    {
-      title: "Full Stack Web Developement Intern", 
-      company: "Metier Organisation (Startup)",
-      year: "2021",
-      desc: "Created the front end using HTML, CSS,Bootstrap and EJS\nImplemented the backend using NodeJS andset up a MongoDB server.\nCreated the UI for best possible business gains.",
-    },
-    {
-      title: "Graduation",
-      company: "SCET, Surat",
-      year: "2020 - 2024",
-      companyLink: "https://scet.ac.in",
-      desc: "Major in Computer Science and Engineering with a CGPA of 8.79.",
-    },
-    {
-      title: "High School",
-      company: "Scholar English Academy(CBSE).",
-      year: "2018-2020",
-      desc: "Percentage in PCM :- 93.6%\nJEE Percentile :- 96.4\nGUJCET Percentile :- 90.2",
-    },
+about: {
+  title:
+    "I'm an enthusiastic software developer passionate about building products that solve real problems. My expertise lies in fullstack and blockchain development, and I thrive in fast-paced environments where tech meets impact.",
+  description: [
+    `Hey there! I'm Suhel Kapadia, a fullstack web3 engineer building at RapidNode and Syntax Studios. I recently graduated with a degree in Computer Engineering from Sarvajanik College of Engineering and Technology, Surat.`,
+    
+    `At RapidNode, I’ve led initiatives ranging from AI-powered airdrop discovery tools to real-time infrastructure monitoring and enterprise dashboards. I also built an optimized Discord analytics pipeline that runs across multiple communities.`,
+    
+    `Currently, I'm also working part-time at Syntax Studios as a fullstack developer, where I’ve shipped a Chrome-based Web3 wallet extension with social login, and maintain a live quizzing platform.`,
+    
+    `Previously, I served as Lead of Google Developer Student Club at SCET, where I mentored juniors and organized hands-on learning events.`,
+    
+    `With deep experience in full-stack web development and a strong grasp of blockchain infrastructure, I enjoy solving hard problems and working on impactful tools.`,
+    
+    `I’m committed to continuous learning, community building, and working on projects that bring tangible value.`,
+    
+    `Let’s connect and see how we can build the future of tech together!`,
   ],
+  currentProject: "DAOasis",
+  currentProjectUrl: "https://github.com/Suhel-Kap/DAOasis",
+},
+experience: [
+  {
+    title: "Fullstack Web3 Engineer",
+    company: "RapidNode",
+    year: "JUL 2024 - PRESENT",
+    companyLink: "https://rapidnode.xyz",
+    desc: "Built a distributed Actively Validated Service (AVS) on Eigenlayer to monitor and validate blockchain nodes.\nDeveloped ERC721 NFT contracts to fractionalize node licenses.\nEngineered a horizontally scalable backend using RabbitMQ.\nBuilt an AI-powered Discord scraper to analyze user contributions and generate leaderboards.\nLed the development of an enterprise One View dashboard aggregating data from Discord, Twitter, and Telegram.\nTechnologies: Go, TypeScript, Python, NestJS, PostgreSQL, Prometheus, RabbitMQ.",
+  },
+  {
+    title: "Fullstack Developer (Part-time)",
+    company: "Syntax Studios",
+    year: "MAY 2025 - PRESENT",
+    companyLink: "https://syntaxstudios.xyz",
+    desc: "Built a Web3 Chrome wallet extension with social login via Privy, supporting cross-chain send/receive/swap.\nMaintaining an online quizzing platform: fixing production issues and adding features.\nContributed across full stack with rapid iterations.\nTechnologies: React, Next.js, Node.js, TailwindCSS, Solidity, MongoDB.",
+  },
+  {
+    title: "Fullstack Developer Intern",
+    company: "Clamp",
+    year: "JAN 2024 - JUN 2024",
+    companyLink: "https://joinclamp.com",
+    desc: "Crafted a smooth KYC flow for users.\nBuilt React Native apps for iOS and Android.\nSet up CI/CD pipeline to deploy to Play Store.",
+  },
+  {
+    title: "Software Engineer Intern",
+    company: "Clamp",
+    year: "JUN 2023 - DEC 2023",
+    companyLink: "https://joinclamp.com",
+    desc: "Implemented Account Abstraction stack.\nReduced gas sponsorship cost by 60%.\nBuilt on-chain reward system and gathered product feedback.\nTech: Solidity, NextJS, NodeJS, Typescript, MongoDB.",
+  },
+  {
+    title: "Full Stack Web3 Development Intern", 
+    company: "Datanominee - Pesu Venture Labs",
+    year: "JAN 2023 - APR 2023",
+    companyLink: "https://www.datanominee.com/",
+    desc: "Integrated Firebase login and Instagram Graph API.\nOptimized MongoDB queries and deployed on AWS Amplify.\nHandled NFT storage on IPFS.",
+  },
+  {
+    title: "Full Stack Web Development Intern", 
+    company: "Metier Organisation (Startup)",
+    year: "2021",
+    desc: "Built frontend using HTML, CSS, Bootstrap, and EJS.\nDeveloped backend in NodeJS and set up MongoDB.\nDesigned user-friendly UI for business optimization.",
+  },
+  {
+    title: "Graduation",
+    company: "SCET, Surat",
+    year: "2020 - 2024",
+    companyLink: "https://scet.ac.in",
+    desc: "Major in Computer Science and Engineering with a CGPA of 8.79.",
+  },
+  {
+    title: "High School",
+    company: "Scholar English Academy (CBSE)",
+    year: "2018 - 2020",
+    desc: "Percentage in PCM: 93.6%\nJEE Percentile: 96.4\nGUJCET Percentile: 90.2",
+  },
+],
+
   responsibilities: [
     {
       title: "Lead",
